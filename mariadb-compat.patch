@@ -1,6 +1,6 @@
 diff -Naur mysql-workbench-community-8.0.26-src/plugins/migration/copytable/copytable.cpp mysql-workbench-community-8.0.26-patched/plugins/migration/copytable/copytable.cpp
---- mysql-workbench-community-8.0.26-src/plugins/migration/copytable/copytable.cpp    2021-10-02 08:29:41.942822297 -0400
-+++ mysql-workbench-community-8.0.26-patched/plugins/migration/copytable/copytable.cpp    2021-10-02 08:49:37.973696112 -0400
+--- plugins/migration/copytable/copytable.cpp    2021-10-02 08:29:41.942822297 -0400
++++ plugins/migration/copytable/copytable.cpp    2021-10-02 08:49:37.973696112 -0400
 @@ -339,11 +339,11 @@
            base::strfmt("Unhandled MySQL type %i for column '%s'", col->target_type, col->target_name.c_str()));
      }
