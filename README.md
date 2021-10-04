@@ -1,6 +1,6 @@
 # MySQL Workbench MariaDB compatibility patch
 
-This repository stores a simple patch file which has to be applied to source code of MySQL Workbench in order to successfully build it using MariaDB dev libraries on Linux. Tested on clean Debian 11 installation.
+A patch that enables building MySQL Workbench from source code when using MariaDB development libraries on Debian. Tested on clean Debian 11 installation.
 
 More on this topic: https://www.marekrost.cz/getting-mysql-workbench-to-work-on-debian-11
 
