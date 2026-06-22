@@ -1,5 +1,7 @@
 # MySQL Workbench MariaDB compatibility patch
 
+> **Obsolete and unmaintained.** Use tools like Flatpak to eliminate distro-specific issues. Original patch targets MySQL Workbench 8.0.26 on Debian 11.
+
 A patch that enables building MySQL Workbench from source code when using MariaDB development libraries on Debian. Tested on clean Debian 11 installation.
 
 More on this topic: https://www.marekrost.cz/getting-mysql-workbench-to-work-on-debian-11
